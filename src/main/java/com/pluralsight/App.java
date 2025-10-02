@@ -38,6 +38,33 @@ public class App {
 
     }
 
+    public void publicChannel(TvRemote test){
+        switch(test.getCurrentChannel()){
+            case 3:
+                System.out.println("Channel 3: Cartoon Network");
+                break;
 
+            case 5:
+                System.out.println("Channel 5: Discovery Channel");
+                break;
+
+            case 8:
+                System.out.println("Channel 8: Food Network");
+                break;
+
+            case 13:
+                System.out.println("Channel 13: HGTV");
+                break;
+
+            case 25:
+                System.out.println("Channel 25: Comedy Central");
+                break;
+
+            default:
+                System.out.println("Channel " + test.getCurrentChannel() + " Unknown Channel");
+
+        }
+
+    }
 
 }

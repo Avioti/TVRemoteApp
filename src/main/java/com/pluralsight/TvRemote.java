@@ -77,21 +77,6 @@ public class TvRemote {
         remote.getStatus();
     }
 
-    public void publicChannel(TvRemote test){
-        if( test.getCurrentChannel() == 3){
-            System.out.println("Channel 3: Cartoon Network");
-        } else if ( test.getCurrentChannel() == 5){
-            System.out.println("Channel 5: Discovery Channel");
-        }else if ( test.getCurrentChannel() == 8){
-            System.out.println("Channel 8: Food Network");
-        }else if ( test.getCurrentChannel() == 13){
-            System.out.println("Channel 13: HGTV");
-        }else if ( test.getCurrentChannel() == 25){
-            System.out.println("Channel 25: Comedy Central");
-        } else{
-            System.out.println("Channel " + test.getCurrentChannel() + " Unknown Channel");
-        }
 
-    }
 
 }
